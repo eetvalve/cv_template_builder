@@ -1,0 +1,104 @@
+{
+  "personalInfo": {
+    "imgLink": "",
+    "fName": "",
+    "lName": "",
+    "dateOfBirth": "",
+    "nationality": "",
+    "address": "",
+    "phone": "",
+    "email": "",
+    "role": "Full-stack developer",
+    "socialMediaLinks": [
+      {
+        "iconType": "",
+        "link": ""
+      }
+    ]
+  },
+  "profile": "",
+  "workExperience": [
+    {
+      "companyName": "",
+      "city": "",
+      "country": "",
+      "timePeriod": "",
+      "jobTitle": "",
+      "jobDescription": ""
+    },
+    {
+      "companyName": "",
+      "city": "",
+      "country": "",
+      "timePeriod": "",
+      "jobTitle": "",
+      "jobDescription": ""
+    }
+  ],
+  "skills":{
+    "primary": [
+      {
+        "skillName": "",
+        "experience": ""
+      },
+      {
+        "skillName": "",
+        "experience": ""
+      }
+    ],
+    "other dev-tools": [
+      "",
+      "",
+      ""
+    ],
+    "others": [
+      "",
+      "",
+      ""
+    ]
+  },
+  "projects": [
+    {
+      "name": "",
+      "description": "",
+      "iconType": "",
+      "repositoryLink": "",
+      "projectLink": ""
+    }
+
+  ],
+  "education": [
+    {
+      "institutionName": "",
+      "fieldOfStudy": "",
+      "city": "",
+      "country": "",
+      "timePeriod": ""
+    }
+  ],
+  "languages": [
+    {
+      "name": "",
+      "skillLevel": ""
+    },
+    {
+      "name": "",
+      "skillLevel": ""
+    }
+  ],
+  "hobbies": [
+    {
+      "name": "",
+      "description": "",
+      "iconType": ""
+    }
+  ],
+  "references": [
+    {
+      "personName": "",
+      "company": "",
+      "email": "",
+      "phone": ""
+    }
+  ]
+}
