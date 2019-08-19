@@ -6,9 +6,11 @@
     </v-card-title>
 
     <v-card-text>
-      <v-layout column>
+      <v-layout
+        class="justify-space-around"
+        column>
 
-        <v-layout row>
+        <v-layout row >
           <v-flex
             xs4
             class="image-container pa-3">
@@ -21,7 +23,7 @@
             </div>
           </v-flex>
 
-          <v-flex xs8>
+          <v-flex xs7>
             <v-text-field
               v-model="item"
               class="text-field-height"
@@ -40,30 +42,50 @@
           </v-flex>
         </v-layout>
 
+        <v-layout
+          row
+          class="pa-3">
+
+          <v-flex
+            class="mr-2"
+            xs5>
         <v-text-field
           v-model="item"
           class="text-field-height"
           label="Date of birth"></v-text-field>
+          </v-flex>
 
+          <v-flex xs6>
         <v-text-field
           v-model="item"
           class="text-field-height"
           label="Nationality"></v-text-field>
+          </v-flex>
 
+          <v-flex xs11>
         <v-text-field
           v-model="item"
           class="text-field-height"
           label="Address"></v-text-field>
+          </v-flex>
 
+          <v-flex
+            class="mr-2"
+            xs5>
         <v-text-field
           v-model="item"
           class="text-field-height"
           label="Phone number"></v-text-field>
+          </v-flex>
 
+          <v-flex
+            xs6>
         <v-text-field
           v-model="item"
           class="text-field-height"
           label="Email address"></v-text-field>
+          </v-flex>
+        </v-layout>
 
       </v-layout>
 
